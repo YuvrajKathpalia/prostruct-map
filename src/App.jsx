@@ -23,7 +23,7 @@ function App() {
     const fetchContacts = async () => {
       try {
         setLoading(true);
-        const response = await axios.get('https://prostruct-backend.vercel.app/api/contacts');
+        const response = await axios.get('https://prostruct-engineering-assignment.vercel.app/api/contacts');
         // const response = await axios.get('http://localhost:3000/api/contacts');
         console.log('API Response:', response.data);
         const contactsWithCoords = [];
